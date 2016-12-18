@@ -1,0 +1,33 @@
+{
+  "name": "gpio-misc",
+  "version": "0.0.1",
+  "description": "GPIO miscellaneous functions in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akselsio/gpio-misc-node.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "gpio",
+    "raspberry",
+    "pi",
+    "misc"
+  ],
+  "author": "Aksels Ledins <aksels.ledins@gmail.com> (http://aksels.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akselsio/gpio-misc-node/issues"
+  },
+  "homepage": "https://github.com/akselsio/gpio-misc-node#readme",
+  "dependencies": {
+    "sleep": "5.0.0"
+  },
+  "peerDependencies": {
+    "onoff": "1.1.x"
+  }
+}
